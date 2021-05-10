@@ -571,14 +571,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^7.2.0":
-  version: 7.2.0
-  resolution: "eslint-config-prettier@npm:7.2.0"
+"eslint-config-prettier@npm:^8.3.0":
+  version: 8.3.0
+  resolution: "eslint-config-prettier@npm:8.3.0"
   peerDependencies:
     eslint: ">=7.0.0"
   bin:
     eslint-config-prettier: bin/cli.js
-  checksum: 6812150ea49703cd64035527205b4905bc1edcd34646e71f71665e1acff9ab4648f872598389bdb209964093ad73993830a2c821ba12642764a5293513b92a58
+  checksum: 94ccbb50fb67e5e47e8ba6cfa257b5cbf53619990ab13f46b99518cfe9b900394b93bdf6ffedbde1a8e2997d301b0fbd73a6b4202146bc53475dfb30a8c812f2
   languageName: node
   linkType: hard
 
@@ -1028,23 +1028,6 @@ __metadata:
   checksum: cf4dfac9b94aa601ae889e7e3cb5a7021a8517b517f933fec0b3a8dc5002edece01475c82f70cc18a051a5a8105bcb2fbe4e64f0b8f321eb99054a49a75b5aa3
   languageName: node
   linkType: hard
-
-"hyphenv@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "hyphenv@workspace:."
-  dependencies:
-    "@types/node": ^14.14.44
-    "@typescript-eslint/eslint-plugin": ^4.23.0
-    "@typescript-eslint/parser": ^4.23.0
-    eslint: ^7.26.0
-    eslint-config-prettier: ^7.2.0
-    eslint-import-resolver-typescript: ^2.4.0
-    eslint-plugin-import: ^2.22.1
-    eslint-plugin-prettier: ^3.4.0
-    prettier: ^2.3.0
-    typescript: ^4.2.4
-  languageName: unknown
-  linkType: soft
 
 "ignore@npm:^4.0.6":
   version: 4.0.6
@@ -2047,6 +2030,23 @@ typescript@^4.2.4:
   checksum: 6526abd75d4409c76d1989cf2fbf6080b903db29824be3d17d0a0b8f6221486c76a021174eda2616cf311199787983c34bae3c5e7b51d2ad7476f2066cddb75a
   languageName: node
   linkType: hard
+
+"workspace-template@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "workspace-template@workspace:."
+  dependencies:
+    "@types/node": ^14.14.44
+    "@typescript-eslint/eslint-plugin": ^4.23.0
+    "@typescript-eslint/parser": ^4.23.0
+    eslint: ^7.26.0
+    eslint-config-prettier: ^8.3.0
+    eslint-import-resolver-typescript: ^2.4.0
+    eslint-plugin-import: ^2.22.1
+    eslint-plugin-prettier: ^3.4.0
+    prettier: ^2.3.0
+    typescript: ^4.2.4
+  languageName: unknown
+  linkType: soft
 
 "wrappy@npm:1":
   version: 1.0.2
